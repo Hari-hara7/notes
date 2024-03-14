@@ -63,7 +63,7 @@ header {
 
     padding: 20px;
 
-    background-color: #373535;
+    background-color: #000000;
 
 }
 
@@ -81,7 +81,7 @@ h1 {
 
 nav {
 
-    background-color: #333;
+    background-color: #000000;
 
     overflow: hidden;
 
@@ -344,5 +344,26 @@ button {
   
   button:hover {
     background-color: #45a049; /* Darker green on hover */
+  }
+  .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      /* Blue color, you can change it */
+      color: #ffffff;
+      /* White text color */
+      text-decoration: none;
+      /* Remove underline */
+      border: none;
+      /* Remove border */
+      border-radius: 5px;
+      /* Add some border radius for a rounded appearance */
+      cursor: pointer;
+  }
+
+  /* Style for hover effect */
+  .button:hover {
+      background-color: #0056b3;
+      /* Darker blue color on hover */
   }
   
